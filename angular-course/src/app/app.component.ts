@@ -14,4 +14,12 @@ export class AppComponent {
     title: 'Angular Core Deep Dive'
   }
 
+  onH1Clicked() {
+    alert("Hello World!")
+  }
+
+  onKeyUp(newTitle: string) {
+    this.data.title = newTitle;
+  }
+
 }
